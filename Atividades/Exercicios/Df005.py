@@ -1,4 +1,3 @@
-#Faça um programa que leia um número inteiro, e seu antecessor
 
 n = float(input("Digite um número: "))
 s = n//1
