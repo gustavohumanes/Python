@@ -1,4 +1,3 @@
 import random
-
-num = random.random()
+num = random.gauss(mu=10)
 print(num)
