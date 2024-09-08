@@ -7,4 +7,4 @@ n4 = str(input("Esse é o último: "))
 
 Nomes = [n1, n2, n3, n4]
 
-print(f" O nome escolhido foi {random.choice(Nomes, 1)}")
+print(f" O nome escolhido foi {random.choice(Nomes)}")

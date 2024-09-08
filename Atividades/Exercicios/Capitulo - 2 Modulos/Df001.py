@@ -1,5 +1,5 @@
 from math import sqrt
-num =int(input("Digite um número: "))
+num = int(input("Digite um número: "))
 
 raiz = sqrt(num)
 
