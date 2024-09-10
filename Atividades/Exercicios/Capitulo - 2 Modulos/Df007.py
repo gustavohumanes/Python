@@ -8,4 +8,4 @@ n4 = str(input("Digite o nome do aluno 4: "))
 Nomes = [n1, n2, n3, n4]
 random.shuffle(Nomes)
 
-print(f"A ordem será: {Nomes}")
+print(f"A ordem será: {Nomes} respectivamente")

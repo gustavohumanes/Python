@@ -1,4 +1,4 @@
-nome = str(input("Digite o nome de uma cidade: "))
+nome = str(input("Digite o nome de uma cidade: ")).upper()
 
 if("SANTO" in nome.split()[0]):
     print(f"Esta cidade começa com 'SANTO' no nome!")
