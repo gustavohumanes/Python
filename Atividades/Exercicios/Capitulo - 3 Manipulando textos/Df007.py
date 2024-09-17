@@ -1,4 +1,4 @@
-Frase = str(input("Digite uma frase: "))
+Frase = str(input("Digite uma frase: ")).strip().lower()
 
 print(f"A letra 'a' aparece na frase {Frase.count("a")} vezes!")
 print(f"Aparece a primeira vez no espaço {int(Frase.find("a")) + 1} da string")
