@@ -9,4 +9,4 @@ try:
     else:
         print(f"Os valores são iguais")
 except ValueError:
-    print("Comi o teu cu, é para digitar número rapa, tá maluco mo negue?")
+    print("É para digitar número rapa, tá maluco mo negue?")

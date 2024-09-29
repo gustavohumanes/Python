@@ -2,7 +2,7 @@ from random import gauss
 
 categorias = {
     "Mirim": 0,
-    "Infatil": 0,
+    "Infantil": 0,
     "Junior": 0,
     "Senior": 0,
     "Mestre": 0
@@ -18,12 +18,12 @@ for idade in Nadadores:
     if idade < 9:
         categorias["Mirim"] += 1
     elif idade < 14:
-        categorias["Infatil"] += 1
+        categorias["Infantil"] += 1
     elif idade < 20:
         categorias["Junior"] += 1
     elif idade < 21:
         categorias["Senior"] += 1
-    elif idade > 21:
+    else:
         categorias["Mestre"] += 1
 
 print("Distribuição de nadadores por categoria:")
