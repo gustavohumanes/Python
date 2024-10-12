@@ -11,7 +11,7 @@ categorias = {
 Nadadores = []
 
 for Player in range(10):
-    Valor = abs(gauss(mu=15, sigma=15))
+    Valor = abs(gauss(mu=15, sigma=14))
     Nadadores.append(Valor)
 
 for idade in Nadadores:
