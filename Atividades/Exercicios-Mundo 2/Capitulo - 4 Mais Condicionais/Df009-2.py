@@ -1,7 +1,5 @@
 import time
 
-
-
 while True:
     try:
         while True:
