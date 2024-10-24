@@ -1,4 +1,6 @@
 
+lista = []
+
 while True:
     print("VERIFICADOR DE NÚMEROS PARES OU IMPARES")
     try:
@@ -16,7 +18,10 @@ while True:
         for c in range(v2, v1+1):
             if c % 2 == 0:
                 print(f"{c} = par")
+                lista.append(c)
             else:
                 print(f"{c} = impar")
     print("TAREFA CONCLUÍDA!")
     break
+
+print(f"Nós possuimos {len(lista)} pares dentro do intervalo de {v1} e {v2}")
